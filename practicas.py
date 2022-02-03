@@ -1,24 +1,20 @@
-nombre = "César"
-print(nombre)
-point = (2.0, 3.0)
-print( point[0])
-print( point[1] + 10 )
-#point[ 0 ] = 3.0
-#Las tublas son inmutables
-print( point[0] )
-point_3d = point + (4.0,)
-print("Nueva tupla: " )
-print( point_3d)
-x, y, z = point_3d
-print(x)
-print(y)
-print(z)
-print("Mi nombre es : %s %s"% ("César","Vargas"))
-print("\n Rango\n")
-range(10)
-print(list(range(10)))
-range(0, 10000)
-print(list(range(0, 100)))
-range(1,12,2)
-print(list(range(1,12,2)))
-
+ages = {'César': 41, 'Eloy':32}
+print(ages)
+print(ages['César'])
+ages['Aurelio'] = 21
+print(ages)
+ages['Rogelio'] = 55
+print(ages)
+print("\t Borrando elemento Rogelio del diccionario ")
+del ages['Rogelio']
+print(ages)
+print("\tBorrar todo el diccionario")
+del ages
+#print(ages)
+print("\tNuevo diccionario")
+ages1 = {'César': 41, 'Eloy':32}
+print(ages1)
+print(ages1.get('Eloy'))
+print(ages1.keys())
+#print(list(ages1.kyes()))
+print(ages1.values())
