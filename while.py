@@ -1,7 +1,18 @@
+
+count = 4
+
+while count <= 10:
+    print(f"Count: {count}")
+    count += 1
+
 contador = 1
 while contador <= 4:
+    if contador == 1:
+        print("\t")
     print(str(contador) + ". Ciclando.... ")
     contador += 1
+
+print("\t")
 
 contador = 0
 while contador < 10:

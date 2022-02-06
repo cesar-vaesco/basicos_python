@@ -34,5 +34,26 @@ for x, y in lista_de_puntos:
 for nombre, edad in edades.items():
     print(f"Nombre de la persona: {nombre}")
     print(f"\t\tEdad:  {edad}")
-    
+
 print(edades.items())
+
+
+comidas = ['pan', 'tortillas', 'queso']
+
+for comida in comidas:
+    print(comida)
+
+for comida in comidas:
+    if comida == 'pan':
+        print('Hay pan')
+        break
+for comida in comidas:
+    if comida == 'pan':
+        print('Tambien hay tortillas y queso')
+        continue
+
+for number in range(0, 10):
+    print(number)
+
+for letra in "César":
+    print("\t"+letra)
