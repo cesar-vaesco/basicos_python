@@ -13,9 +13,16 @@ class Car:
         return f'Car({self.engine},{self.tires})'
 
     def description(self):
-        print(
-            f'Este auto es un {self.engine} y cuenta con las siguientes llantas: {self.tires}'
-        )
+        print(f'Este auto es un {self.engine} y cuenta con las siguientes llantas: {self.tires}')
+
+    def wheel_circuferencia(self):
+        if len(self.tires) > 0:
+            return self.tires[0].circuferencia()
+        else:
+            return 0
+
+
+
 
 
 # def __init__(self, name, year, model):
