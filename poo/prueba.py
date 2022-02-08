@@ -1,7 +1,7 @@
 from clases import *
 from tire import *
 
-tire = Tire('P', 205, 55, 15, 'Toyo', 'R')
+tire = SnowTire('P', 205, 55, 15, 2)
 #toyo.description_tire()
 tires = [tire, tire, tire, tire]
 
@@ -9,6 +9,53 @@ civic = Car(engine='4-cilindros', tires=tires)
 
 print(civic.description())
 print(civic.wheel_circuferencia())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #
 #print("Caracteristicas: " + str(civic))
 #print("Motor: " + str(civic.engine))
